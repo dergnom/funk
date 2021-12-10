@@ -42,25 +42,3 @@ def senden(signal):
     
     print("Execution Time: ", stopTime-startTime)
     GPIO.cleanup()
-
-print("on")
-senden(A_on)
-time.sleep(5)
-print("off")
-senden(A_off)
-time.sleep(5)
-print("on")
-senden(A_on)
-time.sleep(5)
-print("off")
-senden(A_off)
-time.sleep(5)
-print("on")
-senden(A_on)
-time.sleep(5)
-print("off")
-senden(A_off)
-
-
-
-
